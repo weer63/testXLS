@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 	    // write your code here
         int i=0;
-        String xlsFileName = "D:\\00000000000000\\report.xls";
+        String xlsFileName = "D:\\0000000\\report.xls";
         HSSFWorkbook xlsReportBook = new HSSFWorkbook();
         HSSFSheet xlsSheet = xlsReportBook.createSheet("Report");
         xlsSheet.setColumnWidth(0,1000);
