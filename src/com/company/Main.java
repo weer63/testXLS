@@ -15,7 +15,7 @@ public class Main {
         String xlsFileName = "D:\\00000000000000\\report.xls";
         HSSFWorkbook xlsReportBook = new HSSFWorkbook();
         HSSFSheet xlsSheet = xlsReportBook.createSheet("Report");
-        xlsSheet.setColumnWidth(0,10000);
+        xlsSheet.setColumnWidth(0,1000);
         xlsSheet.setColumnWidth(1,7000);
         xlsSheet.setColumnWidth(2, 5000);
         HSSFRow xlsRowHead = xlsSheet.createRow((short) (i++));
